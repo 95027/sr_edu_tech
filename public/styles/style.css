@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+}
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid lightgray;
+}
+th{
+    text-align: center;
+    background-color: dimgray;
+    color: #fff;
+    padding: 4px;
+}
+td{
+    padding: 4px;
+}
+tr:nth-child(even):hover{
+    background-color: lightgrey;
+
+}
+input[type="search"]:focus,
+input[type="submit"]:focus
+{
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border: 1px solid darkgray;
+}
+table img{
+    max-width: 30px;
+}
